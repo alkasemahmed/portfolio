@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import ImagePopup from "@/modals/ImagePopup";
 
 import portfolio_img_1 from "@/assets/images/projects/manjalo.jpg";
-import portfolio_img_2 from "@/assets/images/projects/ekhlaa.png";
+import portfolio_img_2 from "@/assets/images/projects/ekhlaa7.png";
 import portfolio_img_3 from "@/assets/images/client-logos/linkmedia.png";
 import portfolio_img_4 from "@/assets/images/client-logos/headline.png";
 import portfolio_img_5 from "@/assets/images/projects/close-your-eyes.jpg";

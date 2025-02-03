@@ -4,11 +4,17 @@ import Link from "next/link";
 import React, { useState } from "react";
 import ImagePopup from "@/modals/ImagePopup";
 
-import portfolio_img_1 from "@/assets/images/projects/work1.jpg";
-import portfolio_img_2 from "@/assets/images/projects/work2.jpg";
-import portfolio_img_3 from "@/assets/images/projects/work3.jpg";
-import portfolio_img_4 from "@/assets/images/projects/work4.jpg";
-import portfolio_img_5 from "@/assets/images/projects/work5.jpg";
+import portfolio_img_1 from "@/assets/images/projects/manjalo.jpg";
+import portfolio_img_2 from "@/assets/images/projects/ekhlaa.png";
+import portfolio_img_3 from "@/assets/images/client-logos/linkmedia.png";
+import portfolio_img_4 from "@/assets/images/client-logos/headline.png";
+import portfolio_img_5 from "@/assets/images/projects/close-your-eyes.jpg";
+import portfolio_img_6 from "@/assets/images/client-logos/aladham1.png";
+import portfolio_img_7 from "@/assets/images/projects/high-people.jpg";
+import portfolio_img_8 from "@/assets/images/projects/not-buried-yet.jpg";
+import portfolio_img_9 from "@/assets/images/projects/ebla1.jpg";
+import portfolio_img_10 from "@/assets/images/projects/wlad-albalad.jpg";
+import portfolio_img_11 from "@/assets/images/projects/last.jpg";
 
 interface DataType {
   id: number;
@@ -58,12 +64,12 @@ const portfolio_data: DataType[] = [
     image: portfolio_img_5,
     title: "Close Your Eyes",
     category: "First Assistant Director",
-    ref:"/clos-your-eyes"
+    ref:"/close"
   },
   {
     id: 6,
     col: "6",
-    image: portfolio_img_5,
+    image: portfolio_img_6,
     title: "Aladham Production",
     category: "Social Media Manager",
     ref:"/aladham"
@@ -71,23 +77,23 @@ const portfolio_data: DataType[] = [
   {
     id: 7,
     col: "6",
-    image: portfolio_img_5,
+    image: portfolio_img_7,
     title: "High people",
     category: "Cinematographer",
-    ref:"/hig-people"
+    ref:"/high"
   },
   {
     id: 8,
     col: "4",
-    image: portfolio_img_5,
-    title: "Enta Amar",
-    category: "Filmmaker",
-    ref:"/enta-amar"
+    image: portfolio_img_8,
+    title: "Not Buried Yet",
+    category: "Filmmaker & Director",
+    ref:"/not-buried-yet"
   },
   {
     id: 9,
     col: "4",
-    image: portfolio_img_5,
+    image: portfolio_img_9,
     title: "With Suspension of Execution",
     category: "First Assistant Director",
     ref:"/suspension"
@@ -95,10 +101,18 @@ const portfolio_data: DataType[] = [
   {
     id: 10,
     col: "4",
-    image: portfolio_img_5,
+    image: portfolio_img_10,
     title: "Sons of the Homeland",
     category: "Second Unit Director ",
-    ref:"/wlad-alabalad"
+    ref:"/wlad-albalad"
+  },
+  {
+    id: 11,
+    col: "6",
+    image: portfolio_img_11,
+    title: "The Last Shot",
+    category: "Director",
+    ref:"/last-shot"
   },
 ];
 

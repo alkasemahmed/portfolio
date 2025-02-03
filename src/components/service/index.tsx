@@ -1,6 +1,6 @@
 
 import React from 'react'
-import ServiceArea from './ServiceArea'
+import ServiceArea from '@/components/home/ServiceArea'
 import Breadcrumb from '../common/Breadcrumb'
 import FooterOne from '@/layouts/footers/FooterOne'
 import HeaderOne from '@/layouts/headers/HeaderOne'

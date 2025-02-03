@@ -1,7 +1,6 @@
 
 import React from 'react'
-import SkillArea from './SkillArea'
-import ResumeArea from './ResumeArea'
+import AboutArea from '../home/AboutArea'
 import Breadcrumb from '../common/Breadcrumb'
 import FooterOne from '@/layouts/footers/FooterOne'
 import HeaderOne from '@/layouts/headers/HeaderOne'
@@ -14,8 +13,7 @@ export default function About() {
         <div id="smooth-content">
           <main>
             <Breadcrumb title="About Me" />
-            <ResumeArea />
-            <SkillArea />
+            <AboutArea/>
           </main>
           <FooterOne />
         </div>

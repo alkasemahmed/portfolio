@@ -1,9 +1,9 @@
 "use client";
 import React, { useState } from 'react'
-import img_1 from "@/assets/images/projects/work1.jpg";
-import img_2 from "@/assets/images/projects/work2.jpg";
-import img_3 from "@/assets/images/projects/work3.jpg";
-import img_4 from "@/assets/images/projects/work4.jpg";
+import img_1 from "@/assets/images/projects/ekhlaa4.jpg";
+import img_2 from "@/assets/images/projects/ekhlaa5.jpg";
+import img_3 from "@/assets/images/projects/ekhlaa2.jpg";
+import img_4 from "@/assets/images/projects/ekhlaa3.jpg";
 import Image from 'next/image';
 import ImagePopup from '@/modals/ImagePopup';
 
@@ -24,6 +24,7 @@ const portfolio_images = [
     id: 4,
     image: img_4,
   },
+
 ]
 
 export default function EkhlaaPage() {
@@ -45,7 +46,7 @@ export default function EkhlaaPage() {
     <>
       <div className="single-project-page-design">
         <div className="single-project-image">
-          <img src="assets/images/projects/ekhlaa.jpg" alt="image" />
+          <img src="assets/images/projects/ekhlaa1.jpg" alt="image" />
         </div>
         <div className="container pt-60 pb-40">
           <div className="row">

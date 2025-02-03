@@ -19,19 +19,19 @@ const menu_data: DataType[] = [
 	{
 		id: 2,
 		title: "About",
-		link: "/single-project",
+		link: "/about",
 		has_dropdown: false,
 	},
 	{
 		id: 3,
 		title: "services",
-		link: "#serviceS",
+		link: "/service",
 		has_dropdown: false,
 	},
 	{
 		id: 4,
 		title: "Projects",
-		link: "#portfolio",
+		link: "/projects",
 		has_dropdown: false,
 	},
 	/*{
@@ -53,7 +53,7 @@ const menu_data: DataType[] = [
 	{
 		id: 6,
 		title: "Contact",
-		link: "#contact",
+		link: "/contact",
 		has_dropdown: false,
 	},
 ];

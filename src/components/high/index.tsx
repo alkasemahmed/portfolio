@@ -1,10 +1,10 @@
 import HeaderOne from '@/layouts/headers/HeaderOne'
 import React from 'react'
 import Breadcrumb from '../common/Breadcrumb'
-import SingleProjectArea from './SingleProjectArea'
+import HighPage from './high-page'
 import FooterOne from '@/layouts/footers/FooterOne'
 
-export default function SingleProject() {
+export default function HighProject() {
   return (
     <>
 
@@ -13,8 +13,8 @@ export default function SingleProject() {
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
-            <Breadcrumb title="Branch with Flowers" style_3={true} />
-            <SingleProjectArea />
+            <Breadcrumb title="High People" style_3={true} />
+            <HighPage />
           </main>
           <FooterOne />
         </div>

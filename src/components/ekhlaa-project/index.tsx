@@ -2,7 +2,6 @@ import HeaderOne from '@/layouts/headers/HeaderOne'
 import React from 'react'
 import Breadcrumb from '../common/Breadcrumb'
 import EkhlaaPage from './ekhlaa-page'
-import SingleProjectArea from '../single-project/SingleProjectArea'
 import FooterOne from '@/layouts/footers/FooterOne'
 
 export default function EkhlaaProject() {

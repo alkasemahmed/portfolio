@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from 'react'
-import img_1 from "@/assets/images/projects/work1.jpg";
-import img_2 from "@/assets/images/projects/work2.jpg";
-import img_3 from "@/assets/images/projects/work3.jpg";
-import img_4 from "@/assets/images/projects/work4.jpg";
+import img_1 from "@/assets/images/projects/last1.jpg";
+import img_2 from "@/assets/images/projects/last2.jpg";
 import Image from 'next/image';
 import ImagePopup from '@/modals/ImagePopup';
 
@@ -16,17 +14,11 @@ const portfolio_images = [
     id: 2,
     image: img_2,
   },
-  {
-    id: 3,
-    image: img_3,
-  },
-  {
-    id: 4,
-    image: img_4,
-  },
+
+
 ]
 
-export default function SingleProjectArea() {
+export default function LastPage() {
 
   // photoIndex
   const [photoIndex, setPhotoIndex] = useState(null);
@@ -45,7 +37,7 @@ export default function SingleProjectArea() {
     <>
       <div className="single-project-page-design">
         <div className="single-project-image">
-          <img src="assets/images/projects/work2.jpg" alt="image" />
+          <img src="assets/images/projects/last.jpg" alt="image" />
         </div>
         <div className="container pt-60 pb-40">
           <div className="row">
@@ -54,19 +46,11 @@ export default function SingleProjectArea() {
               <div className="single-project-page-left wow fadeInUp delay-0-2s">
                 <div className="single-info">
                   <p>Year</p>
-                  <h3>2024</h3>
-                </div>
-                <div className="single-info">
-                  <p>Client</p>
-                  <h3>Bento Studio</h3>
-                </div>
-                <div className="single-info">
-                  <p>Services</p>
-                  <h3>Web Design</h3>
+                  <h3>2021</h3>
                 </div>
                 <div className="single-info">
                   <p>Project</p>
-                  <h3>Creative</h3>
+                  <h3>Short Film</h3>
                 </div>
               </div>
 
@@ -77,8 +61,8 @@ export default function SingleProjectArea() {
                 <h2>
                   Description
                 </h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit utsadi sfejdis aliquam, purus sit amet luctus venenatis, lectus magna sansit trandis fringilla urna, porttitor rhoncus dolor purus non enim dollors praesent tabasi elementum facilisis leo.</p>
-                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable sourc consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+                <p>"The Last Shot" is a short film that follows the story of a young man struggling with rejection in life. After receiving advice from a friend, he begins using his grandfather’s old camera, only to uncover its deadly power. As he attempts to manipulate the camera for his personal gain, a twist emerges, transforming his fate.</p>
+                
               </div>
             </div>
 
